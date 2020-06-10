@@ -21,7 +21,7 @@
 
 steamPage:
     # This is the short text appearing on the steam page
-    shortText: shapez.io is a game about building factories to automate the creation and combination of increasingly complex shapes within an infinite map.
+    shortText: shapez.io este un joc despre construirea de fabrici pentru a automatiza crearea și combinarea formelor din ce în ce mai complexe într-o hartă infinită.
 
     # This is the long description for the steam page - It is contained here so you can help to translate it, and I will regulary update the store page.
     # NOTICE:
@@ -30,49 +30,48 @@ steamPage:
     longText: >-
         [img]{STEAM_APP_IMAGE}/extras/store_page_gif.gif[/img]
 
-        shapez.io is a game about building factories to automate the creation and combination of shapes. Deliver the requested, increasingly complex shapes to progress within the game and unlock upgrades to speed up your factory.
+        shapez.io este un joc despre construirea de fabrici pentru a automatiza crearea și combinarea formelor. Distribuiți formele solicitate, din ce în ce mai complexe, pentru a progresa în joc și a debloca îmbunătățiri pentru a accelera fabrica.
 
-        Since the demand raises you will have to scale up your factory to fit the needs - Don't forget about resources though, you will have to expand in the [b]infinite map[/b]!
+        Deoarece cererea crește va trebui să vă măriți fabrica pentru a se potrivi nevoilor. Însă nu uitați de resurse, va trebui să vă extindeți în [b]harta infinită[/b]!
+        
+        Din moment ce formele pot deveni plictisitoare, va trebui să amestecați culori și să vă vopsiți formele cu ele - Combinați resursele de culoare roșu, verde și albastru pentru a produce culori diferite și a vopsi formele cu ele spre a satisface cererea.
+        
+        Acest joc are 18 nivele (Ceea ce ar trebui să vă țină ocupați ore întregi!). Dar adaug constant conținut nou - Sunt multe planificate!
 
-        Since shapes can get boring soon you need to mix colors and paint your shapes with it - Combine red, green and blue color resources to produce different colors and paint shapes with it to satisfy the demand.
 
-        This game features 18 levels (Which should keep you busy for hours already!) but I'm constantly adding new content - There is a lot planned! 
-
-
-        [b]Standalone Advantages[/b]
-
-        [list]
-            [*] Waypoints
-            [*] Unlimited Savegames
-            [*] Dark Mode
-            [*] More settings
-            [*] Allow me to further develop shapez.io ❤️
-            [*] More features in the future!
-        [/list]
-
-        [b]Planned features & Community suggestions[/b]
-
-        This game is open source - Anybody can contribute! Besides of that, I listen [b]a lot[/b] to the community! I try to read all suggestions and take as much feedback into account as possible.
+        [b]Avantajele versiunii delux[/b]
 
         [list]
-            [*] Story mode where buildings cost shapes
-            [*] More levels & buildings (standalone exclusive)
-            [*] Different maps, and maybe map obstacles
-            [*] Configurable map creation (Edit number and size of patches, seed, and more)
-            [*] More types of shapes
-            [*] More performance improvements (Although the game already runs pretty good!)
-            [*] Color blind mode
-            [*] And much more!
+            [*] Puncte intermediare (ce pot fi accesate printr-o scurtătură)
+            [*] Locuri de salvare nelimitate
+            [*] Mod întunecat
+            [*] Mai multe setări
+            [*] Îmi va permite sa dezvolt in continuare shapez.io ❤️
+            [*] Mai multe opțuni in viitor!
         [/list]
 
-        Be sure to check out my trello board for the full roadmap! https://trello.com/b/ISQncpJP/shapezio
+        [b]Opțiuni planificate și sugestii ale comunității [/b]
+
+        Acest joc este open source - Oricine poate contribui! În afară de asta, ascult [b] mult [/ b] comunitatea! Încerc să citesc toate sugestiile și iau în considerare cât mai multe răspunsuri.
+        [list]
+            [*] Mod de poveste unde clădirile costă forme
+            [*] Mai multe niveluri și clădiri (exclusiv versiunea delux)
+            [*] Hărți diferite și poate obstacole pe hartă
+            [*] Crearea de hărți configurabile (Editați numărul și dimensiunea zonelor, map seed ( număr scurt care este utilizat pentru a crea procedural harta) și  altele
+            [*] Mai multe forme
+            [*] Mai multe îmbunătățiri de performanță (Deși jocul merge foarte bine deja!)
+            [*] Modul color blind ( capacitatea scăzută de a vedea culoarea sau diferențele de culoare)
+            [*] Și multe altele!
+        [/list]
+
+        Puteți să verificați bordul meu de trello pentru opțiunile planificate! https://trello.com/b/ISQncpJP/shapezio
 
 global:
-    loading: Loading
-    error: Error
+    loading: Se încarcă
+    error: Eroare
 
     # How big numbers are rendered, e.g. "10,000"
-    thousandsDivider: ","
+    thousandsDivider: "."
 
     # The suffix for large numbers, e.g. 1.3k, 400.2M, etc.
     suffix:
@@ -86,21 +85,21 @@ global:
 
     time:
         # Used for formatting past time dates
-        oneSecondAgo: one second ago
-        xSecondsAgo: <x> seconds ago
-        oneMinuteAgo: one minute ago
-        xMinutesAgo: <x> minutes ago
-        oneHourAgo: one hour ago
-        xHoursAgo: <x> hours ago
-        oneDayAgo: one day ago
-        xDaysAgo: <x> days ago
+        oneSecondAgo: Acum o secundă
+        xSecondsAgo: Acum <x> secunde
+        oneMinuteAgo: Acum un minut
+        xMinutesAgo: Acum <x> minute
+        oneHourAgo: Acum o oră
+        xHoursAgo: Acum <x> ore
+        oneDayAgo: Acum o zi
+        xDaysAgo: Acum <x> zile
 
         # Short formats for times, e.g. '5h 23m'
         secondsShort: <seconds>s
         minutesAndSecondsShort: <minutes>m <seconds>s
-        hoursAndMinutesShort: <hours>h <minutes>s
+        hoursAndMinutesShort: <hours>h <minutes>m
 
-        xMinutes: <x> minutes
+        xMinutes: <x> minute
 
     keys:
         tab: TAB
@@ -114,72 +113,72 @@ demoBanners:
     # This is the "advertisement" shown in the main menu and other various places
     title: Demo Version
     intro: >-
-        Get the standalone to unlock all features!
+        Cumpărați versiunea delux pentru a debloca toate funcțiile!
 
 mainMenu:
-    play: Play
-    changelog: Changelog
-    importSavegame: Import
-    openSourceHint: This game is open source!
-    discordLink: Official Discord Server
-    helpTranslate: Help translate!
+    play: Joacă
+    changelog: Istoricul de modificări
+    importSavegame: Încărcați salvarea 
+    openSourceHint: Acest joc este open source!
+    discordLink: Serverul oficial de Discord
+    helpTranslate: Ajutați cu traducerea!
 
     # This is shown when using firefox and other browsers which are not supported.
     browserWarning: >-
-        Sorry, but the game is known to run slow on your browser! Get the standalone version or download chrome for the full experience.
+        Ne pare rău, dar se știe că jocul rulează lent pe browser! Obțineți versiunea delux sau descărcați Chrome pentru o buna experiență.
 
-    savegameLevel: Level <x>
-    savegameLevelUnknown: Unknown Level
+    savegameLevel: Nivel <x>
+    savegameLevelUnknown: Nivel necunoscut
 
     contests:
         contest_01_03062020:
             title: "Contest #01"
-            desc: Win <strong>$25</strong> for the coolest base!
+            desc: Căștigă <strong>$25</strong> pentru cea mai mișto bază!
             longDesc: >-
-                To give something back to you, I thought it would be cool to make weekly contests!
+                Pentru a da ceva înapoi comunității, m-am gândit că ar fi tare să fac concursuri săptămânale!
                 <br><br>
-                <strong>This weeks topic:</strong> Build the coolest base!
+                <strong>Subiectul săptămânii:</strong> Construiește cea mai mișto bază!!
                 <br><br>
                 Here's the deal:<br>
                 <ul class="bucketList">
-                    <li>Submit a screenshot of your base to <strong>contest@shapez.io</strong></li>
-                    <li>Bonus points if you share it on social media!</li>
-                    <li>I will choose 5 screenshots and propose it to the <strong>discord</strong> community to vote.</li>
-                    <li>The winner gets <strong>$25</strong> (Paypal, Amazon Gift Card, whatever you prefer)</li>
+                    <li>Trimite un screenshot al bazei tale la <strong>contest@shapez.io</strong></li>
+                    <li>Puncte bonus dacă îl împărtășiți pe rețelele de socializare!</li>
+                    <li>Voi alege 5 și o voi propune comunității <strong>discord</strong> spre a vota.</li>
+                    <li>Câștigătorul primește <strong>$25</strong> (Paypal, Amazon Gift Card, ce preferați)</li>
                     <li>Deadline: 07.06.2020 12:00 AM CEST</li>
                 </ul>
                 <br>
-                I'm looking forward to seeing your awesome creations!
+                Aștept cu nerăbdare să vă văd creațiile minunate!
 
-        showInfo: View
-        contestOver: This contest has ended - Join the discord to get noticed about new contests!
+        showInfo: Vezi
+        contestOver: Acest concurs s-a încheiat - Alăturați-vă comunității de discord pentru a fi sesizat despre noi concursuri!
 
 dialogs:
     buttons:
         ok: OK
-        delete: Delete
-        cancel: Cancel
-        later: Later
+        delete: Șterge
+        cancel: Anuleaza
+        later: Anulează
         restart: Restart
-        reset: Reset
-        getStandalone: Get Standalone
-        deleteGame: I know what I do
-        viewUpdate: View Update
-        showUpgrades: Show Upgrades
-        showKeybindings: Show Keybindings
+        reset: Resetează
+        getStandalone: Cumpărați delux
+        deleteGame: Știu ce fac
+        viewUpdate: Vizualizează actualizare
+        showUpgrades: Arată îmbunătățiri
+        showKeybindings: Arată maparea tastelor
 
     importSavegameError:
-        title: Import Error
+        title: Eroare de incarcare
         text: >-
             Failed to import your savegame:
 
     importSavegameSuccess:
-        title: Savegame Imported
+        title: Salvare incaărcată
         text: >-
             Your savegame has been successfully imported.
 
     gameLoadFailure:
-        title: Game is broken
+        title: Jocul este stricat
         text: >-
             Failed to load your savegame:
 
