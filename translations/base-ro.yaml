@@ -135,9 +135,9 @@ mainMenu:
             title: "Contest #01"
             desc: Căștigă <strong>$25</strong> pentru cea mai mișto bază!
             longDesc: >-
-                Pentru a da ceva înapoi comunității, m-am gândit că ar fi tare să fac concursuri săptămânale!
+                Pentru a da ceva înapoi comunității, m-am gândit că ar fi bine să fac concursuri săptămânale!
                 <br><br>
-                <strong>Subiectul săptămânii:</strong> Construiește cea mai mișto bază!!
+                <strong>Subiectul săptămânii:</strong> Construiește cea mai tare bază!!
                 <br><br>
                 Here's the deal:<br>
                 <ul class="bucketList">
@@ -159,7 +159,7 @@ dialogs:
         delete: Șterge
         cancel: Anuleaza
         later: Anulează
-        restart: Restart
+        restart: Repornește
         reset: Resetează
         getStandalone: Cumpărați delux
         deleteGame: Știu ce fac
@@ -168,211 +168,213 @@ dialogs:
         showKeybindings: Arată maparea tastelor
 
     importSavegameError:
-        title: Eroare de incarcare
+        title: Eroare de incărcare
         text: >-
-            Failed to import your savegame:
+            Nu sa reușit să se încarce salvarea ta:
 
     importSavegameSuccess:
-        title: Salvare incaărcată
+        title: Salvare incărcată
         text: >-
-            Your savegame has been successfully imported.
+            Sa reușit să se încarce salvarea ta.
 
     gameLoadFailure:
         title: Jocul este stricat
         text: >-
-            Failed to load your savegame:
+            Nu a putut încărca jocul dvs. de salvare:
 
     confirmSavegameDelete:
-        title: Confirm deletion
+        title: Confirmă ștergerea
         text: >-
-            Are you sure you want to delete the game?
+            Sigur doriți să ștergeți salvarea?
 
     savegameDeletionError:
-        title: Failed to delete
+        title: Nu a putut fi șters
         text: >-
-            Failed to delete the savegame:
+            Salvarea nu a putut fi ștearsă:
 
     restartRequired:
-        title: Restart required
+        title: Repornire necesară
         text: >-
-            You need to restart the game to apply the settings.
+            Trebuie să reporniți jocul pentru a aplica setările.
 
     editKeybinding:
-        title: Change Keybinding
-        desc: Press the key or mouse button you want to assign, or escape to cancel.
+        title: Schimbați setările tastelor
+        desc: Apăsați tasta sau butonul mouse-ului pe care doriți să-l atribuiți sau tasta escape pentru a anula.
 
     resetKeybindingsConfirmation:
-        title: Reset keybindings
-        desc: This will reset all keybindings to their default values. Please confirm.
-
+        title: Anulați setările tastelor
+        desc: Aceasta va reseta toate setarile de taste la valorile lor inițiale. Vă rugăm să confirmați.
     keybindingsResetOk:
-        title: Keybindings reset
-        desc: The keybindings have been reset to their respective defaults!
+        title: Anularea setărilor tastelor
+        desc: Setările de taste au fost aduse la valorile inițiale!
 
     featureRestriction:
-        title: Demo Version
-        desc: You tried to access a feature (<feature>) which is not available in the demo. Consider to get the standalone for the full experience!
-
+        title: Versiune demonstrativă
+        desc: Ați încercat să accesați o opțiune (<feature>) care nu este disponibilă în versiunea demonstrativă. Luați în considerare cumpărarea versiunii delixe pentru o experiență completă!
+        
     saveNotPossibleInDemo:
-        desc: Your game has been saved, but restoring it is only possible in the standalone version. Consider to get the standalone for the full experience!
+        desc: Jocul dumneavoastră a fost salvat, dar încărcarea salvării este posibilă doar în versiunea delux. Luați în considerare cumpărarea versiunii delixe pentru o experiență completă!
 
     leaveNotPossibleInDemo:
-        title: Demo version
-        desc: Your game has been saved, but you will not be able to restore it in the demo. Restoring your savegames is only possible in the full version. Are you sure?
+        title: Versiune demonstrativă
+        desc: Jocul dumneavoastră a fost salvat, dar nu o vei putea încărca în versiunea demonstrativă. Încărcarea salvării este posibilă numai în versiunea delux. Sunteți sigur?
 
     newUpdate:
-        title: Update available
-        desc: There is an update for this game available, be sure to download it!
+        title: Actualizare disponibilă
+        desc: Există o actualizare disponibilă pentru acest joc, asigurațivă că îl descărcați!
 
     oneSavegameLimit:
-        title: Limited savegames
-        desc: You can only have one savegame at a time in the demo version. Please remove the existing one or get the standalone!
+        title: Salvări limitate
+        desc: Puteți avea o singură salvare simultană în versiunea demonstrativă. Vă rugăm să o eliminați pe cea existenta sau să obțineți versiunea delux!
 
     updateSummary:
-        title: New update!
+        title: Actualizare nouă!
         desc: >-
-            Here are the changes since you last played:
+            Iată modificările de când ați jucat ultima dată:
 
     hintDescription:
         title: Tutorial
         desc: >-
-            Whenever you need help or are stuck, check out the 'Show hint' button in the lower left and I'll give my best to help you!
+            Ori de câte ori aveți nevoie de ajutor sau rămâneți blocați, consultați butonul „Afișați indiciu” din partea stângă jos și voi face tot posibilul să vă ajut!
 
     upgradesIntroduction:
-        title: Unlock Upgrades
+        title: Deblocați îmbunătățiri
         desc: >-
-            All shapes you produce can be used to unlock upgrades - <strong>Don't destroy your old factories!</strong>
-            The upgrades tab can be found on the top right corner of the screen.
+            Toate formele pe care le produceți pot fi folosite pentru a debloca îmbunătățiri - <strong> Nu vă distrugeți vechile fabrici! </strong>
+             Butonul de îmbunătățiri poate fi găsit în colțul din dreapta sus al ecranului.
 
     massDeleteConfirm:
-        title: Confirm delete
+        title: Confirmați ștergerea
         desc: >-
-            You are deleting a lot of buildings (<count> to be exact)! Are you sure you want to do this?
+            Ștergeți o mulțime de clădiri  (<count> mai exact)! Sunteți siguri că vreți să faceți asta??
 
     blueprintsNotUnlocked:
-        title: Not unlocked yet
+        title: Nu a fost încă deblocată
         desc: >-
-            Blueprints have not been unlocked yet! Complete more levels to unlock them.
+            Planurile nu au fost încă deblocate! Completați mai multe niveluri pentru a le debloca.
 
     keybindingsIntroduction:
-        title: Useful keybindings
+        title:  Setări de taste utile
         desc: >-
-            This game has a lot of keybindings which make it easier to build big factories.
-            Here are a few, but be sure to <strong>check out the keybindings</strong>!<br><br>
-            <code class='keybinding'>CTRL</code> + Drag: Select area to copy / delete.<br>
-            <code class='keybinding'>SHIFT</code>: Hold to place multiple of one building.<br>
-            <code class='keybinding'>ALT</code>: Invert orientation of placed belts.<br>
+            Acest joc are o mulțime de setări de taste care facilitează construirea de fabrici mari. Iată câteva, dar asigurați-vă că <strong> consultați setările de taste </strong>! <br> <br>
+            <code class='keybinding'>CTRL</code> + Drag: Selectați o zonă pentru copiere / ștergere.<br>
+            <code class='keybinding'>SHIFT</code>: Țineți apasată pentru a plasa mai multe clădiri.<br>
+            <code class='keybinding'>ALT</code>: Schimbați orientarea centurilor plasate.<br>
 
     createMarker:
-        title: New Marker
-        desc: Give it a meaningful name
+        title: Marcaj nou
+        desc: Atribuiți un nume semnificativ
+
+
 
     markerDemoLimit:
-        desc: You can only create two custom markers in the demo. Get the standalone for unlimited markers!
+        desc: Puteți crea doar două marcaje personalizate în versiunea demonstrativă. Obțineți versiunea delux pentru marcaje nelimitate!
 
 ingame:
     # This is shown in the top left corner and displays useful keybindings in
     # every situation
     keybindingsOverlay:
-        moveMap: Move
-        selectBuildings: Select area
-        stopPlacement: Stop placement
-        rotateBuilding: Rotate building
-        placeMultiple: Place multiple
-        reverseOrientation: Reverse orientation
-        disableAutoOrientation: Disable auto orientation
-        toggleHud: Toggle HUD
-        placeBuilding: Place building
-        createMarker: Create Marker
-        delete: Destroy
+        moveMap: Mișcați-vă
+        selectBuildings: Selectează zona
+        stopPlacement: Opriți amplasarea
+        rotateBuilding: Rotiți clădirea
+        placeMultiple: Plasați mai multe
+        reverseOrientation: Inversați orientarea
+        disableAutoOrientation: Dezactivați orientarea automată
+        toggleHud: Activați HUD
+        placeBuilding: Amplasați clădirea
+        createMarker: Creați marcaj
+        delete: Distrugeți
 
     # Everything related to placing buildings (I.e. as soon as you selected a building
     # from the toolbar)
     buildingPlacement:
         # Buildings can have different variants which are unlocked at later levels,
         # and this is the hint shown when there are multiple variants available.
-        cycleBuildingVariants: Press <key> to cycle variants.
+        cycleBuildingVariants: Apăsați <key> pentru a schimba varianta.
 
         # Shows the hotkey in the ui, e.g. "Hotkey: Q"
         hotkeyLabel: >-
             Hotkey: <key>
 
         infoTexts:
-            speed: Speed
-            range: Range
-            storage: Storage
-            oneItemPerSecond: 1 item / second
-            itemsPerSecond: <x> items / s
+            speed: Viteză
+            range: Distanţă
+            storage: Depozitare
+            oneItemPerSecond: 1 obiect / secondă
+            itemsPerSecond: <x> obiecte / s
             itemsPerSecondDouble: (x2)
 
-            tiles: <x> tiles
+            tiles: <x> pătrate
 
     # The notification when completing a level
     levelCompleteNotification:
         # <level> is replaced by the actual level, so this gets 'Level 03' for example.
-        levelTitle: Level <level>
-        completed: Completed
-        unlockText: Unlocked <reward>!
-        buttonNextLevel: Next Level
+        levelTitle: Nivel <level>
+        completed: Terminat
+        unlockText: Deblocat <reward>!
+        buttonNextLevel: Nivelul următor
 
     # Notifications on the lower right
     notifications:
-        newUpgrade: A new upgrade is available!
-        gameSaved: Your game has been saved.
+        newUpgrade: O nouă actualizare este disponibilă!
+        gameSaved: Jocul dumneavoastră a fost salvat.
+
+
 
     # Mass select information, this is when you hold CTRL and then drag with your mouse
     # to select multiple buildings
     massSelect:
-        infoText: Press <keyCopy> to copy, <keyDelete> to remove and <keyCancel> to cancel.
+        infoText: Apăsați <keyCopy> pentru a copia, <keyDelete> pentru a șterge și <keyCancel> pentru a anula.
 
     # The "Upgrades" window
     shop:
-        title: Upgrades
-        buttonUnlock: Upgrade
+        title: Îmbunătățiri
+        buttonUnlock: Îmbunătățiri
 
         # Gets replaced to e.g. "Tier IX"
-        tier: Tier <x>
+        tier: Nivel <x>
 
         # The roman number for each tier
         tierLabels: [I, II, III, IV, V, VI, VII, VIII, IX, X]
 
-        maximumLevel: MAXIMUM LEVEL (Speed x<currentMult>)
+        maximumLevel: NIVEL MAXIM (Speed x<currentMult>)
 
     # The "Statistics" window
     statistics:
-        title: Statistics
+        title: Statistici
         dataSources:
             stored:
-                title: Stored
-                description: Displaying amount of stored shapes in your central building.
+                title: Stocate
+                description: Afișează cantitatea de forme stocate în clădirea principală.
             produced:
-                title: Produced
-                description: Displaying all shapes your whole factory produces, including intermediate products.
+                title: Produse
+                description: Afișarea tuturor formelor pe care întreaga ta fabrică le produce, inclusiv produsele intermediare.
             delivered:
-                title: Delivered
-                description: Displaying shapes which are delivered to your central building.
-        noShapesProduced: No shapes have been produced so far.
+                title: Livrate
+                description: Afișarea formelor livrate la clădirea principă.
+        noShapesProduced: Nu s-au produs forme până în prezent.
 
         # Displays the shapes per minute, e.g. '523 / m'
         shapesPerMinute: <shapes> / m
 
     # Settings menu, when you press "ESC"
     settingsMenu:
-        playtime: Playtime
+        playtime: Timp jucat
 
-        buildingsPlaced: Buildings
-        beltsPlaced: Belts
+        buildingsPlaced: Clădiri
+        beltsPlaced: Curele
 
         buttons:
-            continue: Continue
-            settings: Settings
-            menu: Return to menu
+            continue: Continuți
+            settings: Setări
+            menu: Reveniți la meniu
 
     # Bottom left tutorial hints
     tutorialHints:
-        title: Need help?
-        showHint: Show hint
-        hideHint: Close
+        title: Aveți nevoie de ajutor?
+        showHint: Arată indiciul
+        hideHint: Închide
 
     # When placing a blueprint
     blueprintPlacer:
@@ -380,7 +382,7 @@ ingame:
 
     # Map markers
     waypoints:
-        waypoints: Markers
+        waypoints: Marcaje
         hub: HUB
         description: Left-click a marker to jump to it, right-click to delete it.<br><br>Press <keybinding> to create a marker from the current view, or <strong>right-click</strong> to create a marker at the selected location.
         creationSuccessNotification: Marker has been created.
